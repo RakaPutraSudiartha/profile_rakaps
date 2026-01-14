@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Raka Putra Sudiartha | Network Engineer</title>
+  <style>
+    :root {
+      --primary: #0f172a;
+      --secondary: #1e293b;
+      --accent: #38bdf8;
+      --text: #e5e7eb;
+      --muted: #94a3b8;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, var(--primary), var(--secondary));
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 24px;
+    }
+
+    .container {
+      max-width: 900px;
+      width: 100%;
+      background: rgba(15, 23, 42, 0.9);
+      border-radius: 16px;
+      padding: 32px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+    }
+
+    header {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      margin-bottom: 32px;
+    }
+
+    header h1 {
+      font-size: 2.2rem;
+      font-weight: 700;
+    }
+
+    header p {
+      color: var(--muted);
+      font-size: 1rem;
+    }
+
+    section {
+      margin-bottom: 28px;
+    }
+
+    section h2 {
+      font-size: 1.4rem;
+      margin-bottom: 12px;
+      color: var(--accent);
+    }
+
+    .info-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 16px;
+    }
+
+    .card {
+      background: rgba(30, 41, 59, 0.8);
+      border-radius: 12px;
+      padding: 16px;
+      border: 1px solid rgba(56, 189, 248, 0.2);
+    }
+
+    ul {
+      padding-left: 18px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.9rem;
+      margin-top: 24px;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 6px 12px;
+      border-radius: 999px;
+      background: rgba(56, 189, 248, 0.15);
+      color: var(--accent);
+      font-size: 0.85rem;
+      margin: 4px 6px 0 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Raka Putra Sudiartha</h1>
+      <p>XI TJKT • Teknik Jaringan Komputer dan Telekomunikasi</p>
+      <p>Network Engineer Enthusiast</p>
+    </header>
+
+    <section>
+      <h2>Profil Singkat</h2>
+      <p>Siswa SMK jurusan Teknik Jaringan Komputer dan Telekomunikasi yang memiliki minat pada bidang <strong>network engineering</strong>, perakitan komputer, serta keamanan jaringan. Terbiasa bekerja secara sistematis dan berorientasi pada praktik.</p>
+    </section>
+
+    <section>
+      <h2>Informasi Akademik</h2>
+      <div class="info-grid">
+        <div class="card">
+          <strong>Nama</strong>
+          <p>Raka Putra Sudiartha</p>
+        </div>
+        <div class="card">
+          <strong>Kelas</strong>
+          <p>XI TJKT</p>
+        </div>
+        <div class="card">
+          <strong>Jurusan</strong>
+          <p>Teknik Jaringan Komputer dan Telekomunikasi</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Projek</h2>
+      <ul>
+        <li>Perakitan PC</li>
+        <li>Instalasi Kabel Jaringan (LAN)</li>
+        <li>Pembuatan HTML Dasar</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Sertifikat</h2>
+      <span class="badge">Cyber Security</span>
+      <span class="badge">Network Fundamental</span>
+      <span class="badge">Pelatihan Jurusan TJKT</span>
+    </section>
+
+    <footer>
+      © 2026 • Landing Page Profile • Network Engineer Theme
+    </footer>
+  </div>
+</body>
+</html>
